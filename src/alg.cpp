@@ -21,7 +21,7 @@ int countPairs2(int* arr, int len, int value) {
             }
             left+=1;
         }
-        right-=1;
+        right--;
         left = 0;
     }
     return pair_sum;
